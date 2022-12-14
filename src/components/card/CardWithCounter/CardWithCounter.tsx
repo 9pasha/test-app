@@ -1,5 +1,5 @@
 import {FC, ReactNode, useContext} from "react";
-import { CardContext } from "../../../pages/busket/components/CardsContainer/CardsContainer";
+import { CardContext } from "../../../pages/busket/components/CardsList/CardsList";
 import {Counter} from "../../Counter/Counter";
 import "./styles.scss";
 import {useTypedDispatch} from "../../../hooks/useTypedDispatch";

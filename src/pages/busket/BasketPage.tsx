@@ -5,7 +5,7 @@ import {Form} from "../../components/Form/Form";
 import {FormHeader} from "./components/FormHeader/FormHeader";
 import {FormBody} from "./components/FormBody/FormBody";
 import {FormFooter} from "./components/FormFooter/FormFooter";
-import {CardsContainer} from "./components/CardsContainer/CardsContainer";
+import {CardsList} from "./components/CardsList/CardsList";
 import {CardsListHeader} from "./components/CardsListHeader/CardsListHeader";
 import {ViewPortEnum} from "../../enum/viewPort";
 import {useWindowSize} from "../../hooks/useViewPortResize";
@@ -22,7 +22,7 @@ export const BasketPage = () => {
                             <CardsListHeader/>
                         </div>)
                 }
-                <CardsContainer/>
+                <CardsList/>
                 <div className="basket-page__actions">
                     <ActionsContainer/>
                 </div>

@@ -1,5 +1,5 @@
 import "./styles.scss";
-import {FC, SyntheticEvent} from "react";
+import {FC} from "react";
 
 interface IOption {
     value: string | number;

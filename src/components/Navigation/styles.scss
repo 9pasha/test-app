@@ -1,0 +1,16 @@
+@import '../../variables';
+
+.navigation {
+  &__link {
+    color: $color-text-inverted;
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 1rem;
+  }
+
+  & > * {
+
+    &:last-child {
+      margin-left: 2.26rem;
+    }
+  }
+}

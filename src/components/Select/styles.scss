@@ -1,0 +1,30 @@
+@import '../../variables';
+
+.select {
+  border: 1px solid $border-secondary;
+  border-radius: 1.25rem;
+  padding: .6rem 1.75rem .5rem .875rem;
+  background-color: inherit;
+  color: $color-text-primary;
+  font-size: 1rem;
+  font-family: Montserrat, Arial, sans-serif;
+  font-weight: 400;
+  appearance: none;
+  background-image:
+          linear-gradient(45deg, transparent 50%, gray 50%),
+          linear-gradient(135deg, gray 50%, transparent 50%);
+  background-position:
+          calc(100% - 20px) calc(1em + 2px),
+          calc(100% - 15px) calc(1em + 2px);
+  background-size:
+          5px 5px,
+          5px 5px;
+  background-repeat: no-repeat;
+
+  & > * {
+    background-color: $color-ui-tertiary;
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: .75rem;
+    width: 10rem;
+  }
+}

@@ -1,0 +1,12 @@
+.card-with-actions {
+
+  &__btn-wrapper {
+    display: flex;
+    padding-top: 1.285rem;
+  }
+
+  &__btn {
+    margin-right: 1.875rem;
+    width: fit-content;
+  }
+}

@@ -1,0 +1,10 @@
+@import '../../../../variables';
+
+.cards-list-header {
+  display: flex;
+  justify-content: space-between;
+  color: $color-text-primary;
+  font-weight: 400;
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 1rem;
+}

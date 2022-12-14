@@ -1,0 +1,26 @@
+@import '../../../../variables';
+
+.base-card-tablet {
+  display: flex;
+  flex-direction: column;
+  font-family: Montserrat, Arial, sans-serif;
+
+  &__name {
+    color: $color-text-primary;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  &__description {
+    width: 17.25rem;
+    color: $color-text-secondary;
+    font-size: .875rem;
+    padding: .875rem 0 1rem 0;
+  }
+
+  &__price {
+    color: $color-text-primary;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}

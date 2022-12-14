@@ -1,0 +1,41 @@
+@import '../../variables.scss';
+
+.counter {
+  width: 4.44rem;
+  height: 3.19rem;
+  background-color: $color-ui-tertiary;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 .45rem;
+
+  &__inner {
+    font-size: .875rem;
+    color: $color-text-primary;
+    font-family: Montserrat, Arial, sans-serif;
+    font-weight: 600;
+    width: 50%;
+    text-align: center;
+  }
+
+  &__actions {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: .37rem;
+  }
+
+  &__btn {
+    background-color: inherit;
+    border: none;
+
+    &:last-child {
+
+      .counter__btn-icon {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}

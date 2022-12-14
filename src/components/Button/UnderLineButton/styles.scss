@@ -1,0 +1,13 @@
+@import '../../../variables';
+
+.underline-btn {
+  background-color: inherit;
+  border: none;
+  width: content-box;
+  color: $color-text-primary;
+  font-size: .875rem;
+  text-decoration: underline;
+  font-weight: 400;
+  font-family: Montserrat, Arial, sans-serif;
+  padding: 0;
+}

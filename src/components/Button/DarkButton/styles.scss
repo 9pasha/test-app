@@ -1,0 +1,10 @@
+@import '../../../variables.scss';
+
+.dark-btn {
+  background-color: $border-primary;
+  border: 1px solid $border-primary;
+  color: $color-text-inverted;
+  font-family: Montserrat, Arial, sans-serif;
+  padding: .69rem .5rem;
+  border-radius: 3.125rem;
+}

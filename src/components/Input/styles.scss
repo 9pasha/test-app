@@ -1,0 +1,12 @@
+@import '../../variables';
+
+.input {
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid $border-tertiary;
+  padding: .1rem 0;
+  color: $color-text-primary;
+  font-family: Montserrat, Arial, sans-serif;
+  font-weight: 400;
+  font-size: .875rem;
+}

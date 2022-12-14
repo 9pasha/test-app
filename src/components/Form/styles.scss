@@ -1,0 +1,15 @@
+@import '../../variables';
+
+.form {
+  background-color: $color-ui-tertiary;
+  border-radius: 1.25rem;
+  padding: 2.65rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__body,
+  &__footer {
+    width: 100%;
+  }
+}

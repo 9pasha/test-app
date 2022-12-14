@@ -1,0 +1,33 @@
+@import '../../../../variables';
+
+.cards-container {
+
+  &__card {
+    position: relative;
+    padding: 1.125rem 0 1.8rem 0;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-color: $border-tertiary;
+    }
+  }
+}
+
+@media only screen and (min-width: 834px) {
+  .cards-container {
+
+    &__card {
+      padding: 2rem 0 1.8rem 0;
+
+      &:first-child {
+        padding: 1.6rem 0 1.8rem 0;
+      }
+    }
+  }
+}

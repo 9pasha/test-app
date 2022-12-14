@@ -1,0 +1,14 @@
+.card-with-actions {
+  position: relative;
+
+  &__image {
+    width: 100%;
+  }
+
+  &__actions {
+    width: 4rem;
+    position: absolute;
+    right: .75rem;
+    top: .75rem;
+  }
+}

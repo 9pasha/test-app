@@ -1,0 +1,28 @@
+@import '../../../../variables';
+
+.mobile-base-card {
+  display: flex;
+  flex-direction: column;
+  font-family: Montserrat, Arial, sans-serif;
+
+  &__name {
+    color: $color-text-primary;
+    font-weight: 500;
+    font-size: 1.125rem;
+  }
+
+  &__description {
+    width: 85%;
+    color: $color-text-secondary;
+    font-size: .75rem;
+    padding: .5rem 0 .93rem 0;
+    line-height: .94rem;
+    font-weight: 400;
+  }
+
+  &__price {
+    color: $color-text-primary;
+    font-size: .75rem;
+    font-weight: 500;
+  }
+}

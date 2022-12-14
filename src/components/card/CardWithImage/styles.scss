@@ -1,0 +1,15 @@
+.card-with-image {
+  display: flex;
+
+  &_col {
+    flex-direction: column;
+  }
+
+  &_row {
+    flex-direction: row;
+  }
+
+  &__card {
+    width: 100%;
+  }
+}

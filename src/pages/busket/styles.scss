@@ -1,0 +1,61 @@
+@import '../../variables';
+
+.basket-page {
+
+  &__cards-list-header {
+    width: 100%;
+    padding: 2rem 1.75rem .8rem .1rem;
+  }
+
+  &__actions {
+    padding: 1.9rem 0 3rem 0;
+  }
+
+  &__form {
+    width: 21.44rem;
+    height: 34.75rem;
+
+    & > * {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+@media only screen and (min-width: 834px) {
+  .basket-page {
+
+    &__actions {
+      padding: 0 0 3rem 0;
+    }
+
+    &__form {
+      width: 23.625rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .basket-page {
+    display: flex;
+    justify-content: space-between;
+
+    &__cards {
+      width: 49.125rem;
+    }
+
+    &__actions {
+      padding: 1.2rem 0 3rem 0;
+    }
+
+    &__form {
+      width: 23.69rem;
+      height: 34.75rem;
+      padding-top: 2rem;
+
+      & > * {
+        height: 100%;
+      }
+    }
+  }
+}
